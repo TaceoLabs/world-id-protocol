@@ -13,7 +13,6 @@
     clippy::print_stderr,
     clippy::print_stdout,
     clippy::undocumented_unsafe_blocks,
-    clippy::unnecessary_safety_comment,
     clippy::unwrap_used
 )]
 #![allow(
