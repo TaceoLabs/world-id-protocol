@@ -16,5 +16,9 @@ jobs:
         uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          config-file: release-please-config.json
+          release-type: rust
+          path: services/oprf-node
+          component: world-id-oprf-node
+          include-component-in-tag: true
+          target-branch: main
           skip-github-release: true
