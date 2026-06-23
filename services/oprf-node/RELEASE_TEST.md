@@ -2,3 +2,4 @@
 
 feat: latency histogram
 fix: batch size
+perf: hot path
