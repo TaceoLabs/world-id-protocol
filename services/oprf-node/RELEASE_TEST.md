@@ -4,3 +4,4 @@ feat: latency histogram
 fix: batch size
 perf: hot path
 refactor: config module
+docs: dev setup
